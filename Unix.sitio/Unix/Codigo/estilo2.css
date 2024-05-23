@@ -1,0 +1,63 @@
+body{
+	padding:10 em;
+background-image: url(https://i.pinimg.com/564x/1b/cc/47/1bcc479d4fed670c29eb4b47941bf66d.jpg);
+		
+background-repeat:repeat;
+}
+
+hr {/*linea divisora*/
+  height: 5px;
+  background-color: white;
+  border-color: white; 
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+.p{
+	 
+	color:white;
+	font-family:Comic Sans MS;
+	font-size:20px;
+	text-align: center;
+}
+
+.tr{
+
+	background-image:url(https://i.pinimg.com/564x/1c/b9/01/1cb9010278a1e0cb1d8f5e850c1b424f.jpg);
+	text-align:center;
+	font-size:20px;
+	font-family:Comic Sans MS;
+
+}
+.tt{
+	text-align:center;
+	font-size:20px;
+	font-family:Comic Sans MS;
+	color:white;
+	
+}
+	
+	
+.principal{
+	color:white;
+  font-family:Comic Sans MS;
+  margin-left: auto;/*margen izquierda*/
+  margin-right: auto;/*margen derecha*/
+  padding: 20px;/*tamaño de relleno*/
+  max-width: 500px;/*tamaño maximo*/
+}
+
+
+a:link {
+	color:white; }
+
+a:hover{
+	color:white;}
+
+a:visited {
+	color:white;}
+		address {
+	margin-top: auto;
+	padding-top: auto; }

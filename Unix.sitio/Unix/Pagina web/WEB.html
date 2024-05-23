@@ -1,0 +1,174 @@
+<html>
+<head>
+<title>Xodiro.com</title>
+
+
+
+<script Language="JavaScript">
+
+function goback(){
+alert("Good Bye!");
+history.go(-1);
+}
+function gettheDate() {
+Todays = new Date();
+TheDate= "" + (Todays.getMonth()+ 1) +" / "+ Todays.getDate() + " / " + (Todays.getYear() + 1900)
+document.clock.thedate.value = TheDate;
+}
+var timerID = null;
+var timerRunning = false;
+function stopclock (){
+if(timerRunning)
+clearTimeout(timerID);
+timerRunning = false;
+}
+function startclock () {
+stopclock();
+gettheDate()
+showtime();
+}
+function showtime () {
+var now = new Date();
+var hours = now.getHours();
+var minutes = now.getMinutes();
+var seconds = now.getSeconds()
+var timeValue = "" + ((hours > 12)? hours -12 :hours)
+timeValue += ((minutes < 10) ? ":0" : ":") + minutes
+timeValue += ((seconds < 10) ? ":0" : ":") + seconds
+timeValue += (hours >= 12) ? " P.M." : " Α.Μ."
+document.clock.face.value = timeValue;
+timerID = setTimeout("showtime()", 1000);
+timerRunning = true;
+}
+</script>
+<BODY onLoad="startclock()">
+    <CENTER>
+    <table border>
+    <tr>
+    <td><form name="clock" onSubmit="0"></td>
+    </tr>
+    <tr>
+    <td colspan=2><font size="4"><font color="white"><font face="Comic Sans MS">Hoy es: <input type="text" name="thedate" size=1 value=""></td>
+    <td colspan=2><font size="4"><font color="white"><font face="Comic Sans MS">La hora es: <input type="text" name="face" size=12 value=""></td></form>
+    </tr>
+    </table>
+    </CENTER>
+
+    <center>
+    </center>
+</head>
+<link rel="stylesheet" href="estilo1.css">
+<link rel="stylesheet" href="estilo3.css">
+<link rel="stylesheet" href="estilo5.css">
+<link rel="stylesheet" href="estilo6.css">
+<body>
+<p align="center"><table>
+<tr><td><img src="https://cdn-icons-png.flaticon.com/512/408/408130.png"width="80" height="80"></td><td><h4><font size="15">Unix.com</font></p></p>
+</tr></table>
+
+
+<P align="right"><table border>
+<tr class="tr">
+<td><font size="5">Descubre y aprende de forma segura</br>
+</td> 
+</tr>
+</table>
+
+
+<P align="center"><table border>
+<tr class="tr">
+<td ><br><font size="5"><font face="Comic Sans MS"><a href="file:///C:/Users/Ximena/Desktop/DEWE/Objetivo.html" target="_blank">OBJETIVO,MISIÓN Y VISIÓN</font></a></p>
+</td> 
+</tr>
+</table>
+
+<P align="left"><table width="1330" height="150">
+<tr class="tr">
+<td><font size="8"><font color="#f5deb3"><font face="Comic Sans MS"><a href="file:///C:/Users/Ximena/Desktop/DEWE/Negocios.html" target="_blank">NEGOCIOS INTERNACIONALES</font></a></font></font>
+<br><font size="6"><font face="Comic Sans MS">Universidad Politecnica de Tulancingo</font>
+<br><font size="6"><font face="Comic Sans MS">Universidad Tecnologica de Tulancingo</font>
+<br><font size="6"><font face="Comic Sans MS">Tecmilenio</font>
+
+
+
+<br><div class="image"><P align="center"><img src="https://i.pinimg.com/564x/06/80/8d/06808dfa1d0cff746b96f4320c1dd2bf.jpg"width="150" height="150"></p>
+<td><img src="https://th.bing.com/th/id/R.3f9c21f83f923487f56618605ef548b3?rik=lES0kDjw00KSxA&riu=http%3a%2f%2fmoodle.conalephidalgo.edu.mx%2fpluginfile.php%2f16933%2fcourse%2foverviewfiles%2fWhatsApp_Image_2023-10-05_at_12.02.15_PM-removebg-preview.png&ehk=B4v1xzUsK%2br6HcA4QfUVFsmN%2fXU%2b5Wjnb25AMbDtkM4%3d&risl=&pid=ImgRaw&r=0"width="177" height="177">
+<img src="https://static.wixstatic.com/media/e897bd_24527a1e700e41f6b2ed0686e11cadf9~mv2.png/v1/fit/w_2500,h_1330,al_c/e897bd_24527a1e700e41f6b2ed0686e11cadf9~mv2.png"width="177" height="177">
+<img src="https://images.credly.com/size/200x200/images/b8e6d134-79fe-4f11-a50c-309463334760/blob.png"width="177" height="177"></td>
+</div>
+
+</td> 
+</tr>
+</table>
+
+<P align="right"><table width="1330" height="150">
+<tr class="tr">
+
+<td><img src="https://th.bing.com/th/id/R.06c6b90391c79382312b0b21bb717c52?rik=3fOe3QpA1YELqw&riu=http%3a%2f%2fdai.uaeh.edu.mx%2fpaale%2fea%2ficono.png&ehk=LGETz6%2bc7ZJUxW2wLxll6bLE5oMfeiqHU0RPETteVT0%3d&risl=&pid=ImgRaw&r=0"width="150" height="150">
+<img src="https://dicifo.chapingo.mx/wp-content/uploads/2023/02/logo_dicifo.png"width="150" height="150">
+<img src="https://logosmarken.com/wp-content/uploads/2022/04/UANL-Logo.png"width="150" height="150">
+
+<td><font size="8"><font color="#794918"><font face="Comic Sans MS"><a href="file:///C:/Users/Ximena/Desktop/DEWE/Ingieneria.html" target="_blank">INGIENERÍA FORESTAL</font></a></font></font>
+<br><font size="6"><font face="Comic Sans MS">Universidad Autonoma del Estado de Hidalgo</font></a>
+<br><font size="6"><font face="Comic Sans MS">División de Ciencias Forestales - Chapingo</font>
+<br><font size="6"><font face="Comic Sans MS">Universidad Autonoma de Nuevo León </font>
+<div class="image">
+<br><P align="center"><img src="https://i.pinimg.com/564x/21/0b/6f/210b6f4ff27dde90819ad0598e748ede.jpg"width="100" height="150"></p>
+</div>
+
+</td> 
+</tr>
+</table>
+
+<P align="left"><table width="1330" height="150">
+<tr class="tr">
+<td><font size="8"><font color="#f5deb3"><font face="Comic Sans MS"><a href="file:///C:/Users/Ximena/Desktop/DEWE/Gesti%C3%B3n.html" target="_blank">GESTIÓN EMPRESARIAL</font></a></font></font>
+<br><font size="6"><font face="Comic Sans MS">Universidad Politecnica de Tulancingo</font>
+<br><font size="6"><font face="Comic Sans MS">Tecnologico Nacional de México</font>
+<br><font size="6"><font face="Comic Sans MS">Universidad del Valle de México</font>
+<div class="image">
+<br><P align="center"><img src="https://i.pinimg.com/564x/a9/f5/56/a9f556eea74b74493846a6dbdc9e794c.jpg"width="150" height="150"></p>
+<td><img src="https://th.bing.com/th/id/R.3f9c21f83f923487f56618605ef548b3?rik=lES0kDjw00KSxA&riu=http%3a%2f%2fmoodle.conalephidalgo.edu.mx%2fpluginfile.php%2f16933%2fcourse%2foverviewfiles%2fWhatsApp_Image_2023-10-05_at_12.02.15_PM-removebg-preview.png&ehk=B4v1xzUsK%2br6HcA4QfUVFsmN%2fXU%2b5Wjnb25AMbDtkM4%3d&risl=&pid=ImgRaw&r=0"width="150" height="150">
+<img src="https://www.cdcuauhtemoc.tecnm.mx/wp-content/uploads/2021/08/LOGO-VERTICAL-TECNM.png"width="150" height="150">
+<img src="https://www.logolynx.com/images/logolynx/2c/2c8b0b6551df864cc1045929c98e1bbc.png"width="150" height="150">
+</div>
+</td> 
+</tr>
+</table>
+
+<br></br>
+<p align="center"><font size="6">LOGOS DE TODAS LAS ESCUELAS</p>
+
+<div class="cont">
+<div class="card"><img src="https://th.bing.com/th/id/R.3f9c21f83f923487f56618605ef548b3?rik=lES0kDjw00KSxA&riu=http%3a%2f%2fmoodle.conalephidalgo.edu.mx%2fpluginfile.php%2f16933%2fcourse%2foverviewfiles%2fWhatsApp_Image_2023-10-05_at_12.02.15_PM-removebg-preview.png&ehk=B4v1xzUsK%2br6HcA4QfUVFsmN%2fXU%2b5Wjnb25AMbDtkM4%3d&risl=&pid=ImgRaw&r=0"width="100" height="100">
+<img src="https://static.wixstatic.com/media/e897bd_24527a1e700e41f6b2ed0686e11cadf9~mv2.png/v1/fit/w_2500,h_1330,al_c/e897bd_24527a1e700e41f6b2ed0686e11cadf9~mv2.png"width="100" height="100">
+<img src="https://images.credly.com/size/200x200/images/b8e6d134-79fe-4f11-a50c-309463334760/blob.png"width="100" height="100"></div>
+
+<div class="card"><img src="https://th.bing.com/th/id/R.06c6b90391c79382312b0b21bb717c52?rik=3fOe3QpA1YELqw&riu=http%3a%2f%2fdai.uaeh.edu.mx%2fpaale%2fea%2ficono.png&ehk=LGETz6%2bc7ZJUxW2wLxll6bLE5oMfeiqHU0RPETteVT0%3d&risl=&pid=ImgRaw&r=0"width="100" height="100">
+<img src="https://dicifo.chapingo.mx/wp-content/uploads/2023/02/logo_dicifo.png"width="100" height="100">
+<img src="https://logosmarken.com/wp-content/uploads/2022/04/UANL-Logo.png"width="100" height="100">
+</div>
+<div class="card"><img src="https://th.bing.com/th/id/R.3f9c21f83f923487f56618605ef548b3?rik=lES0kDjw00KSxA&riu=http%3a%2f%2fmoodle.conalephidalgo.edu.mx%2fpluginfile.php%2f16933%2fcourse%2foverviewfiles%2fWhatsApp_Image_2023-10-05_at_12.02.15_PM-removebg-preview.png&ehk=B4v1xzUsK%2br6HcA4QfUVFsmN%2fXU%2b5Wjnb25AMbDtkM4%3d&risl=&pid=ImgRaw&r=0"width="100" height="100">
+<img src="https://www.cdcuauhtemoc.tecnm.mx/wp-content/uploads/2021/08/LOGO-VERTICAL-TECNM.png"width="100" height="100">
+<img src="https://www.logolynx.com/images/logolynx/2c/2c8b0b6551df864cc1045929c98e1bbc.png"width="100" height="100"></div>
+</div>
+
+<br></br>
+
+<h3>Si no sabes que hacer o como seguir en tus estudios ve este video :)</h3>
+
+<br></br/>
+<P align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/MGU43OImPfY?si=Tbc4RPK6KG_kRHzd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<font size="6"><font face="Comic Sans MS"><p align="center"><a href="file:///C:/Users/Ximena/Desktop/DEWE/Redes.html" target="_blank">REDES SOCIALES</font></a></font></font></p>
+<br></br>
+
+<footer>
+    <p align="center"><font color="white"><font size="5"><font face="Comic Sans MS">Unix	-
+	<img src="https://www.nicepng.com/png/full/663-6633616_icono-de-correo-blanco-png.png"width="25" height="25"> 	Unix.web@gmail.com	-	
+	<img src="https://icon-library.com/images/white-instagram-icon-png/white-instagram-icon-png-2.jpg"width="25" height="25">Unix_web	-
+	<img src="https://i0.wp.com/eltallerdehector.com/wp-content/uploads/2022/10/whatsapp-logo-png-white.png?fit=512%2C512&ssl=1"width="25" height="25">775 275 0575</p></font></font>
+</footer>
+
+</body>
+</html>

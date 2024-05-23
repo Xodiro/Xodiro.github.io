@@ -1,0 +1,44 @@
+.p{
+	 
+	color:white;
+	font-family:Comic Sans MS;
+	font-size:20px;
+	text-align: center;
+	
+}
+
+p::selection{
+background:black;
+color:white;
+}
+
+td::selection{
+background:black;
+color:white;
+}
+
+a::selection{
+background:black;
+color:white;
+}
+h3::selection{
+background:black;
+color:white;
+}
+h4{
+	
+text-align:justify;
+font-family:Comic Sans MS;
+background-image: url("https://i.pinimg.com/564x/a9/48/ec/a948ec2555fcde04d5b6f0cf08749c7c.jpg");
+background-size:cover;
+background-position:center;
+background-clip:text;
+-webkit-background-clip:text;
+color:transparent;
+}
+
+
+	
+
+
+	

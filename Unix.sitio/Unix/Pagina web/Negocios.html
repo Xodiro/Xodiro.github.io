@@ -1,0 +1,147 @@
+<html>
+<head>
+<title>Xodiro.com</title>
+
+
+
+<script Language="JavaScript">
+
+function goback(){
+alert("Good Bye!");
+history.go(-1);
+}
+function gettheDate() {
+Todays = new Date();
+TheDate= "" + (Todays.getMonth()+ 1) +" / "+ Todays.getDate() + " / " + (Todays.getYear() + 1900)
+document.clock.thedate.value = TheDate;
+}
+var timerID = null;
+var timerRunning = false;
+function stopclock (){
+if(timerRunning)
+clearTimeout(timerID);
+timerRunning = false;
+}
+function startclock () {
+stopclock();
+gettheDate()
+showtime();
+}
+function showtime () {
+var now = new Date();
+var hours = now.getHours();
+var minutes = now.getMinutes();
+var seconds = now.getSeconds()
+var timeValue = "" + ((hours > 12)? hours -12 :hours)
+timeValue += ((minutes < 10) ? ":0" : ":") + minutes
+timeValue += ((seconds < 10) ? ":0" : ":") + seconds
+timeValue += (hours >= 12) ? " P.M." : " Α.Μ."
+document.clock.face.value = timeValue;
+timerID = setTimeout("showtime()", 1000);
+timerRunning = true;
+}
+</script>
+<BODY onLoad="startclock()">
+    <CENTER>
+    <table border>
+    <tr>
+    <td><form name="clock" onSubmit="0"></td>
+    </tr>
+    <tr>
+    <td colspan=2><font size="4"><font color="white"><font face="Comic Sans MS">Hoy es: <input type="text" name="thedate" size=1 value=""></td>
+    <td colspan=2><font size="4"><font color="white"><font face="Comic Sans MS">La hora es: <input type="text" name="face" size=12 value=""></td></form>
+    </tr>
+    </table>
+    </CENTER>
+
+    <center>
+    </center>
+</head>
+<link rel="stylesheet" href="estilo1.css">
+<link rel="stylesheet" href="estilo3.css">
+<link rel="stylesheet" href="estilo4.css">
+<link rel="stylesheet" href="estilo6.css">
+<body >
+
+<p align="center"><table>
+<tr><td><img src="https://cdn-icons-png.flaticon.com/512/408/408130.png"width="80" height="80"></td><td><h4><font size="15">Unix.com</font></p></p>
+</tr></table>
+
+<P align="right"><table border>
+<tr class="tr"><font size="6"><font face="Comic Sans MS">
+<td><font size="5"><font face="Comic Sans MS">Descubre y aprende de forma segura</br>
+</td> 
+</tr>
+</table>
+
+<font size="8"><font color="white"><font face="Comic Sans MS"><P align="center" >NEGOCIOS INTERNACIONALES</font></font>
+
+<P align="left"><table >
+<tr class="tr">
+<td><P align="left"><img src="https://th.bing.com/th/id/R.3f9c21f83f923487f56618605ef548b3?rik=lES0kDjw00KSxA&riu=http%3a%2f%2fmoodle.conalephidalgo.edu.mx%2fpluginfile.php%2f16933%2fcourse%2foverviewfiles%2fWhatsApp_Image_2023-10-05_at_12.02.15_PM-removebg-preview.png&ehk=B4v1xzUsK%2br6HcA4QfUVFsmN%2fXU%2b5Wjnb25AMbDtkM4%3d&risl=&pid=ImgRaw&r=0"width="150" height="150"></td>
+<td><font size="5"><font face="Comic Sans MS"><font color="black">Duración= 10 cuatrimestres
+<br>MISIÓN DE LA CARRERA: Formar profesionistas lideres,eficaces y éticos comprometidos y capaces de desenvolverse activamente en el 
+ambito de negocios internacionaes con una visión integral en un entorno multidisciplinario, multicultural y de justicia adquiriendo 
+competencias que favorezca el desarrollo de los sectores publicos y privado, así como el personal,,contando con la preparación adecuada
+que permite afrontar el entorno global con una planta academica de enfoque tecnológico, creativo y emprendedor.
+<br>VISIÓN DE LA CARRERA:Formar profesionales capaces de desarrollarse en el entorno global ejerciendo influencia transformadora en la 
+generación de riqueza y conocimiento dirigido a los sectores productivo y social en la calidad y valores 
+<br><font size="5"><font face="Comic Sans MS"><a href="http://www.upt.edu.mx/Contenido/OfertaEducativa/Profesional/LNI/LicNegocios.html" target="_blank">Universidad Politecnica de Tulancingo</font></a>
+
+</td> 
+</tr>
+</table>
+
+<br></br>
+
+<P align="left"><table >
+<tr class="tr">
+<td><P align="left"><img src="https://static.wixstatic.com/media/e897bd_24527a1e700e41f6b2ed0686e11cadf9~mv2.png/v1/fit/w_2500,h_1330,al_c/e897bd_24527a1e700e41f6b2ed0686e11cadf9~mv2.png"width="150" height="150"></td>
+<td><font size="5"><font face="Comic Sans MS"><font color="black">Duración= 5 cuatrimestres
+<br>VISIÓN:Al año 2040 ser una institución publica acreditada local y globabalmente por la calidad y pertinencia de sus programas educativos,
+competividad, humanismo y ética de sus egresados.Reconocida por sus aportaciones ala generación, aplicación del conocimiento innovación y 
+transferencia de tecnología;para contribuir al desarrollo social  y sostenible de la región.
+<br>MISIÓN:Formar personas integras,con conocimientos cientiicos,tecnologicos y humanisticos, habilidades, actitudes y valores que impulsen
+el desarrollo del potencial humano, en congruencia a sus expectativas de vida y que contribuyan al mejoramiento de la sociedad.Realizar 
+investigación aplicada, desarrollo tecnológico e innovación que atienda las necesidades de los sectores publicos, privado y social, en un 
+marco de sostenibilidad, responsabilidad social y la perservación de las culturas 
+<br><font size="5"><font face="Comic Sans MS"><a href="http://www.utectulancingo.edu.mx/index.html" target="_blank">Universidad Tecnologica de Tulancingo</font></a>
+</td>
+</tr>
+</table>
+
+<br></br>
+
+
+<P align="center"><table >
+<tr class="tr">
+<td><P align="left"><img src="https://images.credly.com/size/200x200/images/b8e6d134-79fe-4f11-a50c-309463334760/blob.png"width="150" height="150"></td>
+<td><font size="5"><font face="Comic Sans MS"><font color="black">Duración= 8 semestres de forma presencial
+<br>VISIÓN:Personas positivas con proposito de vida y las competencias para alcanzarlas
+<br>Fecha inicio: Enero/Agosto
+<br><font size="5"><font face="Comic Sans MS"><a href="https://www.tecmilenio.mx/es" target="_blank">Tecmilenio</font></a>
+
+
+</td>
+</tr>
+</table>
+<br>
+<p align="center"><table>
+<div class="container">
+<tr><td><div class="img-box"> <img src="https://th.bing.com/th/id/R.93ce9b91c936cc321f3135395c3931d6?rik=olarBFh1ujl2Xw&pid=ImgRaw&r=0" width="400" height="400"></div></td>
+<td><div class="img-box"> <img src="https://th.bing.com/th/id/OIP.14IDk9lvr0tQfStXWcZnoAHaDt?rs=1&pid=ImgDetMain"width="400" height="400"></div></td>
+<td><div class="img-box"> <img src="https://escuelaexperta.com/wp-content/uploads/2022/12/Universidad-Tecmilenio.jpg"width="400" height="400"></div></td>
+</div>
+</table>
+
+<td><br><font size="5"><font face="Comic Sans MS"><p align="center"><a href="file:///C:/Users/Ximena/Desktop/DEWE/WEB.html" target="_blank">Pagina de inicio</font></a>
+
+<footer>
+    <p align="center"><font color="white"><font size="5"><font face="Comic Sans MS">Unix	-
+	<img src="https://www.nicepng.com/png/full/663-6633616_icono-de-correo-blanco-png.png"width="25" height="25"> 	Unix.web@gmail.com	-	
+	<img src="https://icon-library.com/images/white-instagram-icon-png/white-instagram-icon-png-2.jpg"width="25" height="25">Unix_web	-
+	<img src="https://i0.wp.com/eltallerdehector.com/wp-content/uploads/2022/10/whatsapp-logo-png-white.png?fit=512%2C512&ssl=1"width="25" height="25">775 275 0575</p></font></font>
+</footer>
+
+</body>
+</html>

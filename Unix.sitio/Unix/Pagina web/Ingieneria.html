@@ -1,0 +1,143 @@
+<html>
+<head>
+<title>Xodiro.com</title>
+
+
+
+<script Language="JavaScript">
+
+function goback(){
+alert("Good Bye!");
+history.go(-1);
+}
+function gettheDate() {
+Todays = new Date();
+TheDate= "" + (Todays.getMonth()+ 1) +" / "+ Todays.getDate() + " / " + (Todays.getYear() + 1900)
+document.clock.thedate.value = TheDate;
+}
+var timerID = null;
+var timerRunning = false;
+function stopclock (){
+if(timerRunning)
+clearTimeout(timerID);
+timerRunning = false;
+}
+function startclock () {
+stopclock();
+gettheDate()
+showtime();
+}
+function showtime () {
+var now = new Date();
+var hours = now.getHours();
+var minutes = now.getMinutes();
+var seconds = now.getSeconds()
+var timeValue = "" + ((hours > 12)? hours -12 :hours)
+timeValue += ((minutes < 10) ? ":0" : ":") + minutes
+timeValue += ((seconds < 10) ? ":0" : ":") + seconds
+timeValue += (hours >= 12) ? " P.M." : " Α.Μ."
+document.clock.face.value = timeValue;
+timerID = setTimeout("showtime()", 1000);
+timerRunning = true;
+}
+</script>
+<BODY onLoad="startclock()">
+    <CENTER>
+    <table border>
+    <tr>
+    <td><form name="clock" onSubmit="0"></td>
+    </tr>
+    <tr>
+    <td colspan=2><font size="4"><font color="white"><font face="Comic Sans MS">Hoy es: <input type="text" name="thedate" size=1 value=""></td>
+    <td colspan=2><font size="4"><font color="white"><font face="Comic Sans MS">La hora es: <input type="text" name="face" size=12 value=""></td></form>
+    </tr>
+    </table>
+    </CENTER>
+
+    <center>
+    </center>
+</head>
+<link rel="stylesheet" href="estilo1.css">
+<link rel="stylesheet" href="estilo3.css">
+<link rel="stylesheet" href="estilo4.css">
+<link rel="stylesheet" href="estilo6.css">
+<body >
+
+<p align="center"><table>
+<tr><td><img src="https://cdn-icons-png.flaticon.com/512/408/408130.png"width="80" height="80"></td><td><h4><font size="15">Unix.com</font></p></p>
+</tr></table>
+
+<P align="right"><table border>
+<tr class="tr"><font size="6"><font face="Comic Sans MS">
+<td><font size="5"><font face="Comic Sans MS">Descubre y aprende de forma segura</br>
+</td> 
+</tr>
+</table>
+
+<font size="8"><font color="white"><font face="Comic Sans MS"><P align="center">INGIENERÍA FORESTAL</font></font>
+
+
+<P align="left"><table >
+<tr class="tr">
+<td><P align="left"><img src="https://th.bing.com/th/id/R.06c6b90391c79382312b0b21bb717c52?rik=3fOe3QpA1YELqw&riu=http%3a%2f%2fdai.uaeh.edu.mx%2fpaale%2fea%2ficono.png&ehk=LGETz6%2bc7ZJUxW2wLxll6bLE5oMfeiqHU0RPETteVT0%3d&risl=&pid=ImgRaw&r=0"width="150" height="150"></td>
+<td><font size="5"><font face="Comic Sans MS"><font color="black">Duración= 9 semestres, en el 8° semestre se realiza el servicio social y en el 9° las practicas profesionales
+<br>MISIÓN: Formar capital humano de alta calidad, de acuerdo con las necesidades de la sociedad global, proporcionando la incorporación 
+exitosa de sus egresados 
+<br>VISIÓN: Ser una universidad global, reconocida por sus indicadores de excelencia y visible en los sitemas de medicióninternacional 
+de calidad. Ademas se enfoca en garantizar el desarrollo de competencias,aptitudes y habilidades a través de un programa flexible para
+brindar una formación integral a estudiantes
+<br><font size="5"><font face="Comic Sans MS"><a href="https://www.uaeh.edu.mx/discover/" target="_blank">Universidad Autonoma del Estado de Hidalgo</font></a>
+
+</td> 
+</tr>
+</table>
+
+<br></br>
+
+<P align="left"><table >
+<tr class="tr">
+<td><P align="left"><img src="https://dicifo.chapingo.mx/wp-content/uploads/2023/02/logo_dicifo.png"width="150" height="150"></td>
+<td><font size="5"><font face="Comic Sans MS"><font color="black">La carrera esta diseñada para cualquier estudiante egresado de la preparatoria agrícola o del propedéutico.Ademasde contar con sentido 
+analítico, tecnico y cientifico de las áreas de ingienería, la biología,la ecología y la administración, aplicados al conocimiento
+y manejo de los recursos forestales y todo lo relacionado con ellos.
+<br>Campus central: Km.38.5 carretera México.Texcoco Chapingo. Texcoco, Estado de México CP 56230
+<br><font size="5"><font face="Comic Sans MS"><a href="https://chapingo.mx/" target="_blank">División de Ciencias Forestales - Chapingo</font>
+</td>
+</tr>
+</table>
+
+<br></br>
+
+
+<P align="center"><table >
+<tr class="tr">
+<td><P align="left"><img src="https://logosmarken.com/wp-content/uploads/2022/04/UANL-Logo.png"width="150" height="150"></td>
+<td><font size="5"><font face="Comic Sans MS"><font color="black">Duración= 9 semestres de forma presencial
+<br>MODALIDAD: Escolarizada
+<br>INGRESO: Anual
+<br>SEDE: Campus Linares, Linares, N.L 
+<br>CORREO: academia.fcf.@uanl.edu.mx
+<br><font size="6"><font face="Comic Sans MS"><a href="https://www.uanl.mx/" target="_blank">Universidad Autonoma de Nuevo León </font></a>
+</td>
+</tr>
+</table>
+<br>
+<p align="center"><table>
+<div class="container">
+<tr><td><div class="img-box"> <img src="https://www.uaeh.edu.mx/campus/icap/images/slider/sliderpe1.jpg" width="400" height="400"></div></td>
+<td><div class="img-box"> <img src="https://3.bp.blogspot.com/_lGIHkNlHMO0/TBPoYZKgufI/AAAAAAAAAxk/xzHlZuyyISk/s1600/IMG_4165.jpg"width="400" height="400"></div></td>
+<td><div class="img-box"> <img src="https://th.bing.com/th/id/OIP.-MjEBLCEE1vMvtuvR3mRWgHaEK?rs=1&pid=ImgDetMain"width="400" height="400"></div></td>
+</div>
+</table>
+
+<td><br><font size="5"><font face="Comic Sans MS"><p align="center"><a href="file:///C:/Users/Ximena/Desktop/DEWE/WEB.html" target="_blank">Pagina de inicio</font></a>
+
+<footer>
+    <p align="center"><font color="white"><font size="5"><font face="Comic Sans MS">Unix	-
+	<img src="https://www.nicepng.com/png/full/663-6633616_icono-de-correo-blanco-png.png"width="25" height="25"> 	Unix.web@gmail.com	-	
+	<img src="https://icon-library.com/images/white-instagram-icon-png/white-instagram-icon-png-2.jpg"width="25" height="25">Unix_web	-
+	<img src="https://i0.wp.com/eltallerdehector.com/wp-content/uploads/2022/10/whatsapp-logo-png-white.png?fit=512%2C512&ssl=1"width="25" height="25">775 275 0575</p></font></font>
+</footer>
+
+</body>
+</html>

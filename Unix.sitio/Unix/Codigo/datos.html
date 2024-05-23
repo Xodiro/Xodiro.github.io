@@ -1,0 +1,26 @@
+<html>
+<head>
+<meta charset="utf-8"><title> Registro de datos</title>
+</head>
+<body>
+<form action="">
+<p> Ingresa tu nombre:
+<input type="text" id="Nombre"></p>
+<br>
+<p>Ingresa tu edad:
+<input type="text" id="Edad"></p>
+<br>
+<br>
+<input type="button" value="Aceptar" onclick="alert(Accion());">
+</form>
+<script type="text/javascript">
+var Accion=function(Nombre,Edad){
+var Nombre= document.getElementById("Nombre").value;
+var Edad= document.getElementById("Edad").value;
+
+var Resul ="Tu nombres es:"+Nombre+"; y tienes"+Edad+"años.";
+return Resul;
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+.cont{
+display: flex;
+}
+
+.card{
+border-radius:20px;
+margin-left:50px;
+height:200px;
+background-color:transparent;
+flex:1;
+transition:  .3s all ease;
+text-align:center;
+}
+
+.card:hover{
+flex:3;
+background-color:#bc8f8f;
+}
+

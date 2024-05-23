@@ -1,0 +1,19 @@
+
+input{
+	font-family:Comic Sans MS;
+	font-size:15px;
+	color:white;
+	background-color:#bc8f8f;
+}
+
+input:active{
+	background-color:black;		
+}
+
+input[type="ckeckbox"]{
+outline-color:#bc8f8f;
+}
+
+input[type="text"]{
+caret-color:#bc8f8f;
+}

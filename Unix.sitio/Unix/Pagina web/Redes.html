@@ -1,0 +1,98 @@
+<html>
+<head>
+<title>Xodiro.com</title>
+
+
+
+<script Language="JavaScript">
+
+function goback(){
+alert("Good Bye!");
+history.go(-1);
+}
+function gettheDate() {
+Todays = new Date();
+TheDate= "" + (Todays.getMonth()+ 1) +" / "+ Todays.getDate() + " / " + (Todays.getYear() + 1900)
+document.clock.thedate.value = TheDate;
+}
+var timerID = null;
+var timerRunning = false;
+function stopclock (){
+if(timerRunning)
+clearTimeout(timerID);
+timerRunning = false;
+}
+function startclock () {
+stopclock();
+gettheDate()
+showtime();
+}
+function showtime () {
+var now = new Date();
+var hours = now.getHours();
+var minutes = now.getMinutes();
+var seconds = now.getSeconds()
+var timeValue = "" + ((hours > 12)? hours -12 :hours)
+timeValue += ((minutes < 10) ? ":0" : ":") + minutes
+timeValue += ((seconds < 10) ? ":0" : ":") + seconds
+timeValue += (hours >= 12) ? " P.M." : " Α.Μ."
+document.clock.face.value = timeValue;
+timerID = setTimeout("showtime()", 1000);
+timerRunning = true;
+}
+</script>
+<BODY onLoad="startclock()">
+    <CENTER>
+    <table border>
+    <tr>
+    <td><form name="clock" onSubmit="0"></td>
+    </tr>
+    <tr>
+    <td colspan=2><font size="4"><font color="white"><font face="Comic Sans MS">Hoy es: <input type="text" name="thedate" size=1 value=""></td>
+    <td colspan=2><font size="4"><font color="white"><font face="Comic Sans MS">La hora es: <input type="text" name="face" size=12 value=""></td></form>
+    </tr>
+    </table>
+    </CENTER>
+
+    <center>
+    </center>
+</head>
+<body >
+<link rel="stylesheet" href="estilo2.css">
+<link rel="stylesheet" href="estilo3.css">
+<link rel="stylesheet" href="estilo6.css">
+<p align="center"><table>
+<tr><td><img src="https://cdn-icons-png.flaticon.com/512/408/408130.png"width="80" height="80"></td><td><h4><font size="15">Unix.com</font></p></p>
+</tr></table>
+
+<P align="right"><table border>
+<tr class="tr"><font size="6"><font face="Comic Sans MS">
+<td><font size="5"><font color="black"><font face="Comic Sans MS">Descubre y aprende de forma segura</br>
+</td> 
+</tr>
+</table>
+<div class="Principal">
+<hr>
+<P align="center"><table border>
+<tr class="tr"><font size="6"><font face="Comic Sans MS">
+<td><font size="6"><font face="Comic Sans MS"><font color="black"><P align="center">REDES SOCIALES</p></font></font></font>
+<br><font size="5"><font face="Comic Sans MS"><P align="center">CORREO: <img src="https://th.bing.com/th/id/OIP.uxi9u-9Dey1QUY21qCkslAHaFS?rs=1&pid=ImgDetMain"width="25" height="25"> Unix.web@gmail.com</br>
+<br>TELEFONO: <img src="https://static.insales-cdn.com/files/1/2643/25872979/original/154858_c696d38d128a514eac5b3e8186095809.png"width="25" height="25">775 275 05 75</br>
+<br>INSTAGRAM: <img src="https://www.pngplay.com/wp-content/uploads/5/Instagram-Black-Logo-PNG.png"width="25" height="25">Unix_web	</br>
+<br>FACEBOOK: <img src="https://th.bing.com/th/id/R.7d94b7b2545f1a3c5506dda1e31040bc?rik=IuVs9C5X2WoeMg&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_429093.png&ehk=KMf5WcTD%2fP%2b0Ejm9gIHZViLN1XFt3Sl2Tv%2bWEPYPynQ%3d&risl=&pid=ImgRaw&r=0"width="25" height="25"> Unix_web</br>
+</td> 
+</tr>
+</table>
+<hr>
+</div>
+<td><br><font size="5"><font face="Comic Sans MS"><p align="center"><a href="file:///C:/Users/Ximena/Desktop/DEWE/WEB.html" target="_blank">Pagina de inicio</font></a>
+
+<footer>
+    <p align="center"><font color="white"><font size="5"><font face="Comic Sans MS">Unix	-
+	<img src="https://www.nicepng.com/png/full/663-6633616_icono-de-correo-blanco-png.png"width="25" height="25"> 	Unix.web@gmail.com	-	
+	<img src="https://icon-library.com/images/white-instagram-icon-png/white-instagram-icon-png-2.jpg"width="25" height="25">Unix_web	-
+	<img src="https://i0.wp.com/eltallerdehector.com/wp-content/uploads/2022/10/whatsapp-logo-png-white.png?fit=512%2C512&ssl=1"width="25" height="25">775 275 0575</p></font></font>
+</footer>
+
+</body>
+</html>
